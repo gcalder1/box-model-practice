@@ -1,0 +1,65 @@
+
+
+/* Basic styling to center the content */
+/*body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+
+}
+*/
+
+
+.box {
+    width: 300px;/* Set the content width */
+    padding: 20px;/* Space around the content */
+    border: 5px solid blue;/* Border around the box */
+    margin: 30px;/* Space outside the border */
+    background-color:lightblue;/* Background color for visibility */
+    text-align: center;
+
+
+}
+
+/* We start from here*/
+
+
+
+
+
+.header  {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: monospace;
+    background: papayawhip;
+  }
+  
+  .logo {
+    font-size: 48px;
+    font-weight: 900;
+    color: tomato;
+    background: white;
+    padding: 4px 32px;
+  }
+  
+  ul {
+    /* this removes the dots on the list items*/
+    display:flex;
+    list-style-type: none;
+  }
+  
+  a {
+    display: flex;
+    font-size: 22px;
+    background: white;
+    margin-right: 20px;
+    padding: 8px;
+    /* this removes the line under the links */
+    text-decoration: none;
+  }
+  
